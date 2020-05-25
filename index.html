@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<link href="styles.css" rel="stylesheet">
+	<title>Pixel art app</title>
+</head>
+<body>
+	<div id="wrapper">
+	<h1>Pixel Art Maker</h1>
+	<div id="gridDeminsion">
+		<label for="GridHeight" class="pixel"> Grid Height:</label>
+		<input type="number" id="GridHeight" value = "5" min="0" max="50">
+		<label for="GridWidth" class="pixel">Grid Width:</label>
+		<input type="number" id="GridWidth" value = "5" min="0" max="50">
+
+		<button id="makeIt">Submit</button>
+		
+	</div>
+	<div>
+		<label for="newColor" class="pixel">Pick a color:</label>
+		<input type="color" value="#ff0000" id="newColor">
+		<h2>Design a canvas</h2>
+	</div>
+	<div id="container">
+		
+	</div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

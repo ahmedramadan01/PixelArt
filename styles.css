@@ -1,0 +1,45 @@
+
+#container {
+	position: relative;
+	top: 10px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	margin-bottom: 20px;
+	height:960px;
+	width:960px;
+	padding: 0;
+	border: none;
+}
+
+
+.grid{
+	margin:0;
+	padding: 0;
+	outline:1px solid black;
+	display: inline-block;
+}
+h1{
+	font-family: 'Monoton', cursive;
+	text-align:center;
+	font-size:100px
+
+}
+
+#wrapper{
+	text-align: center;
+}
+
+#newColor{
+	margin-top: 10px;
+}
+
+.pixel{
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+
+
+
+
